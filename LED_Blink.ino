@@ -9,7 +9,6 @@ For the configuration, just see image "LED_configuration"
 
 void setup() {
   pinMode(PC13, OUTPUT);
-  Serial.begin(9600);
 }
 
 void loop() {
@@ -17,5 +16,4 @@ void loop() {
   delay(2000); // wait for 2 seconds 
   digitalWrite(PC13, LOW); // turn the LED off by making the voltage LOW 
   delay(1000); // wait for a second
-  Serial.println("Oktab");
 }
