@@ -4,6 +4,7 @@ note that i use STM32duino to code this, so you might be familiar with the code 
 Date: May 26, 2024
 Time: 3:07 PM
 
+Something weird happened! when i set a value to high, the voltage will be low, and vice versa. I don't know why this situation occure, just go with the flow 
 For the configuration, just see image "LED_configuration"
 */
 
